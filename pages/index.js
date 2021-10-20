@@ -28,7 +28,9 @@ const Index = (props) => {
                         <img src="/images/Fotografia-Home.png" alt="" className="col-md-12" />
                     </div>
                     <div className="col-md-12">
-                        <button type="button" className={`btn btn-outline-primary mr-3 ${styles.my_btn_primary}`}>Calcula tu crédito</button>
+                        <Link href="/simulator">
+                            <a className={`btn btn-outline-primary mr-3 ${styles.my_btn_primary}`}>Calcula tu crédito</a>
+                        </Link>
                         <button type="button" className={`btn btn-outline-primary ${styles.my_btn_primary}`}>Sucursal virtual</button>
                     </div>
                 </div>

@@ -37,6 +37,10 @@
     border-radius: 7px;
 }
 
+.btn_radius10 {
+    border-radius: 25px;
+}
+
 .btn_whatsapp {
     display:block;
     width:70px;
@@ -66,6 +70,20 @@
     font-Weight: 650;
 }
 
+.title_style_card_two {
+    color: #0F4BBD;
+    font-size: 1.8rem;
+    font-Weight: 700;
+}
+
+.subtitle_style_card {
+    font-size: 1.5rem;
+}
+
+.subtitle_style_card_two {
+    font-size: 1rem;
+}
+
 .style_img_float {
     width: 80%;
     right: 6.5px !important;
@@ -77,6 +95,10 @@
     color: #5b5b5f;
 }
 
+.text_simulator_price {
+    color: #0F4BBD;
+}
+
 .my_btn_primary {
     border-radius: 20px;
     border-color: #0F4BBD !important;
@@ -84,9 +106,37 @@
     border-radius: 20px;
 }
 
+.my_btn_simulator {
+    border-radius: 50%;
+    border-color: #5b5b5f !important;
+    color: #5b5b5f !important;
+    font-size: 1rem;
+    font-weight: 750;
+}
+
+.my_btn_simulator_ok {
+    border-radius: 20px;
+    background-color: #0F4BBD !important;
+    border-color: #fff !important;
+    color: #fff !important;
+    border-radius: 20px;
+}
+   
+
 .my_btn_primary:hover {
     background-color: #0F4BBD !important;;
     color: #fff !important;
+}
+
+.my_btn_simulator_ok:hover {
+    background-color: #fff !important;;
+    color: #0F4BBD !important;
+}
+
+.my_btn_simulator:hover {
+    background-color: rgb(15 75 189 / 0.78) !important;;
+    color: #fff !important;
+    border-color: #fff !important;
 }
 
 .footer_style {
@@ -123,4 +173,18 @@
     color: #0F4BBD;
     font-size: 16px;
     font-weight: 500;
+}
+
+.progress_mine {
+    height: 20px !important;
+    border-radius: 20px;
+}
+
+.bg_mine {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(54,210,182,1) 0%, rgba(15,75,189,1) 43%);
+}
+
+.card_shadow {
+    box-shadow: 3px 1px 10px #666;
 }
