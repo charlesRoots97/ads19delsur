@@ -72,7 +72,7 @@
 
 .title_style_card_two {
     color: #0F4BBD;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-Weight: 700;
 }
 
@@ -82,6 +82,7 @@
 
 .subtitle_style_card_two {
     font-size: 1rem;
+    text-align: center;
 }
 
 .style_img_float {
@@ -120,6 +121,7 @@
     border-color: #fff !important;
     color: #fff !important;
     border-radius: 20px;
+    font-weight: 600;
 }
    
 
@@ -131,6 +133,7 @@
 .my_btn_simulator_ok:hover {
     background-color: #fff !important;;
     color: #0F4BBD !important;
+    border-color: #0F4BBD !important;
 }
 
 .my_btn_simulator:hover {
@@ -187,4 +190,22 @@
 
 .card_shadow {
     box-shadow: 3px 1px 10px #666;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.my_input {
+    border-radius: 7px;
+    background-color: #e9ecef;
+    border: none;
+}
+
+.my_input:hover {
+    background-color: #e9ecef;
+}
+
+.my_input:focus {
+    background-color: #e9ecef;
 }
